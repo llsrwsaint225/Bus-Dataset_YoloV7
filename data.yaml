@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /kaggle/working/Bus-Dataset_YoloV7/train/images
+val: /kaggle/working/Bus-Dataset_YoloV7/train/images
+test: /kaggle/working/Bus-Dataset_YoloV7/train/images
 
 nc: 5
 names: ['BMTA-bus', 'Bus Line Number', 'Bus Side Number', 'Destination Sign', 'TSB-Bus']
