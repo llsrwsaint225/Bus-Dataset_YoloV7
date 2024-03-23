@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['BMTA-bus', 'Bus Line Number', 'Bus Side Number', 'Destination Sign', 'TSB-Bus']
+
+roboflow:
+  workspace: panyapiwat-institute-of-management-7nqbi
+  project: object-bus-dataset
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/panyapiwat-institute-of-management-7nqbi/object-bus-dataset/dataset/9
